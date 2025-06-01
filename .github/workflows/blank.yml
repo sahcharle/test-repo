@@ -15,7 +15,7 @@ on:
            run: |
              echo Add other actions to build,
              echo test, and deploy your project.
-  test:
+    test:
     runs-on: ubuntu-latest
     steps:
       - name: check uptime
